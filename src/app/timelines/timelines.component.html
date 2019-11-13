@@ -1,0 +1,13 @@
+<h2>Ứng dụng tính thời gian đã sống</h2>
+
+<div class="input-group flex-nowrap">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="addon-wrapping">Age</span>
+  </div>
+  <input type="text" class="form-control"
+         placeholder="Enter Check Age"
+         aria-label="Age"
+         aria-describedby="addon-wrapping"
+         (change)="onChange($event.target.value)">
+</div>
+<p>{{ output }}</p>
